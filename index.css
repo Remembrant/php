@@ -1,0 +1,109 @@
+body{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url(images/pexels-photo-640781.jpeg) no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-color: #2a2a2b;
+  background: cover;
+
+}
+
+ul{
+  float: left;
+  list-style: none;
+  margin: 40px;
+}
+
+ul li{
+  display: inline-flex;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 2px 20px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: white;
+  color: #000;
+}
+
+.signup-btn{
+  top: 40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 20px;
+  /*background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at
+    top left, #fd00da,#19d7f8);*/
+  background-origin: border-box;
+
+}
+
+.signup-btn span
+{
+  display: block;
+  padding: 2px 20px;
+}
+
+.signin-btn{
+  top: 40px;
+  right: 250px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 20px;
+  /*background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at
+    top left, #fd00da,#19d7f8);*/
+  background-origin: border-box;
+
+}
+
+.signin-btn span
+{
+  display: block;
+  padding: 5px 10px;
+}
+
+.logo img{
+  margin: 20px;
+  float: left;
+  width:  80px;
+  height: auto;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.app-pic{
+  width: 30%;
+  float: right;
+}
+
+.app-pic img{
+  width: 60%;
+  margin-top: 100%;
+  padding-left: 50px;
+}
